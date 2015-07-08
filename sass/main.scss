@@ -1,0 +1,265 @@
+@import "compass/reset";
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "latoregular", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background: url("../img/header-bg.jpg");
+  background-position: center right;
+  height: 1070px;
+
+  .logo {
+    margin: 0 auto;
+    width: 66px;
+    height: 69px;
+    padding-top: 285px;
+    position: relative;
+    a {
+      position: absolute;
+    }
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  .header-title {
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+      font-family: "latobold", sans-serif;
+      font-size: 54pt;
+      text-transform: uppercase;
+      margin-top: 92px;
+    }
+    p {
+      font-size: 15pt;
+      margin-top: 50px;
+      letter-spacing: 2px;
+      line-height: 30px;
+    }
+  }
+  .header-bottom-pin {
+    margin: 0 auto;
+    width: 23px;
+    height: 37px;
+    img {
+      vertical-align: middle;
+      margin-top: 246px;
+    }
+  }
+}
+
+h1.title {
+  font-family: "latobold", sans-serif;
+  margin-top: -10px;
+  margin-bottom: 62px;
+  height: 20px;
+  line-height: 20px;
+  color: #000000;
+  font-size: 34pt;
+  text-align: center;
+  text-transform: uppercase;
+  padding-right: 50px;
+  span {
+    text-align: center;
+    padding: 0 100px;
+    background-color: #fff;
+  }
+}
+
+.about-us {
+  margin-top: 145px;
+  text-align: center;
+
+  fieldset {
+    border: 3px solid #000;
+
+    legend {
+      color: #000;
+    }
+  }
+
+  p {
+    color: #3c3c3c;
+  }
+}
+
+fieldset {
+  display: block;
+  border: 3px solid #ffffff;
+
+  legend {
+    font-size: 34pt;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 100px;
+    text-transform: uppercase;
+    font-family: "latobold", sans-serif;
+    margin-bottom: 64px;
+  }
+  p {
+    font-family: "latolight", sans-serif;
+    font-size: 16pt;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 112px;
+  }
+  p:last-child {
+    margin-bottom: 64px;
+  }
+}
+
+.padding116 {
+  padding-top: 114px;
+  padding-bottom: 78px;
+}
+
+.services {
+  background: url("../img/services-bg.jpg");
+  height: 488px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center right;
+  margin-top: 145px;
+  text-align: center;
+  .content{
+    padding-top: 100px;
+  }
+  fieldset{
+    p{
+      margin-bottom: 64px;
+    }
+  }
+}
+
+.what-we-do {
+  margin-top: 145px;
+  text-align: center;
+  fieldset {
+    border: 3px solid #000000;
+    color: #000000;
+    legend {
+      color: #000;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-family: "latobold", sans-serif;
+    font-size: 20pt;
+    letter-spacing: 4px;
+  }
+
+  P {
+    color: #3c3c3c;
+    font-size: 14pt;
+  }
+  .wwd-design, .wwd-development, .wwd-product {
+    img {
+      margin-bottom: 40px;
+    }
+  }
+
+}
+
+.our-works {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 16pt;
+  font-family: "latobold", sans-serif;
+  margin: 112px auto;
+  h2 {
+    text-transform: uppercase;
+  }
+}
+
+.ow-img {
+  display: inline-block;
+  width: 260px;
+  height: 200px;
+  margin-right: 5px;
+  margin-top: 10px;
+  &:nth-child(2), &:nth-child(5) {
+    width: 450px;
+  }
+  h2 {
+    position: absolute;
+    color: #ffffff;
+    margin-top: -55px;
+    margin-left: 22px;
+    font-family: "latobold", sans-serif;
+    letter-spacing: 5px;
+  }
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+.contact-us {
+  margin-top: 112px;
+  text-align: center;
+  fieldset {
+    border: 3px solid #000000;
+
+    legend {
+      color: #000000;
+      font-family: "latobold", sans-serif;
+    }
+    p {
+      color: #3c3c3c;
+    }
+    input[type="button"] {
+      width: 359px;
+      height: 58px;
+      background-color: #3c3c3c;
+      color: #ffffff;
+      border: none;
+      outline: none;
+      margin-bottom: 50px;
+      font-family: "latoregular", sans-serif;
+      font-size: 16pt;
+      text-transform: uppercase;
+      cursor: pointer;
+      &:hover {
+        background-color: #616161;
+      }
+    }
+  }
+}
+
+.footer {
+  margin-top: 64px;
+  margin-bottom: 30px;
+  text-align: center;
+  img {
+    display: inline-block;
+    margin-right: 36px;
+    vertical-align: middle;
+    width: 35px;
+    height: 36px;
+  }
+  p {
+    display: inline-block;
+    color: #3c3c3c;
+    font-size: 14pt;
+  }
+}

@@ -1,0 +1,361 @@
+/* line 5, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/main.scss */
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "latoregular", sans-serif;
+}
+
+/* line 11, ../sass/main.scss */
+.wrapper {
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* line 16, ../sass/main.scss */
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/main.scss */
+.header {
+  width: 100%;
+  background: url("../img/header-bg.jpg");
+  background-position: center right;
+  height: 1070px;
+}
+/* line 27, ../sass/main.scss */
+.header .logo {
+  margin: 0 auto;
+  width: 66px;
+  height: 69px;
+  padding-top: 285px;
+  position: relative;
+}
+/* line 33, ../sass/main.scss */
+.header .logo a {
+  position: absolute;
+}
+/* line 36, ../sass/main.scss */
+.header .logo img {
+  vertical-align: middle;
+}
+/* line 41, ../sass/main.scss */
+.header .header-title {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 44, ../sass/main.scss */
+.header .header-title h1 {
+  font-family: "latobold", sans-serif;
+  font-size: 54pt;
+  text-transform: uppercase;
+  margin-top: 92px;
+}
+/* line 50, ../sass/main.scss */
+.header .header-title p {
+  font-size: 15pt;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+/* line 57, ../sass/main.scss */
+.header .header-bottom-pin {
+  margin: 0 auto;
+  width: 23px;
+  height: 37px;
+}
+/* line 61, ../sass/main.scss */
+.header .header-bottom-pin img {
+  vertical-align: middle;
+  margin-top: 246px;
+}
+
+/* line 68, ../sass/main.scss */
+h1.title {
+  font-family: "latobold", sans-serif;
+  margin-top: -10px;
+  margin-bottom: 62px;
+  height: 20px;
+  line-height: 20px;
+  color: #000000;
+  font-size: 34pt;
+  text-align: center;
+  text-transform: uppercase;
+  padding-right: 50px;
+}
+/* line 79, ../sass/main.scss */
+h1.title span {
+  text-align: center;
+  padding: 0 100px;
+  background-color: #fff;
+}
+
+/* line 86, ../sass/main.scss */
+.about-us {
+  margin-top: 145px;
+  text-align: center;
+}
+/* line 90, ../sass/main.scss */
+.about-us fieldset {
+  border: 3px solid #000;
+}
+/* line 93, ../sass/main.scss */
+.about-us fieldset legend {
+  color: #000;
+}
+/* line 98, ../sass/main.scss */
+.about-us p {
+  color: #3c3c3c;
+}
+
+/* line 103, ../sass/main.scss */
+fieldset {
+  display: block;
+  border: 3px solid #ffffff;
+}
+/* line 107, ../sass/main.scss */
+fieldset legend {
+  font-size: 34pt;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 100px;
+  text-transform: uppercase;
+  font-family: "latobold", sans-serif;
+  margin-bottom: 64px;
+}
+/* line 116, ../sass/main.scss */
+fieldset p {
+  font-family: "latolight", sans-serif;
+  font-size: 16pt;
+  color: #ffffff;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-bottom: 112px;
+}
+/* line 124, ../sass/main.scss */
+fieldset p:last-child {
+  margin-bottom: 64px;
+}
+
+/* line 129, ../sass/main.scss */
+.padding116 {
+  padding-top: 114px;
+  padding-bottom: 78px;
+}
+
+/* line 134, ../sass/main.scss */
+.services {
+  background: url("../img/services-bg.jpg");
+  height: 488px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center right;
+  margin-top: 145px;
+  text-align: center;
+}
+/* line 142, ../sass/main.scss */
+.services .content {
+  padding-top: 100px;
+}
+/* line 146, ../sass/main.scss */
+.services fieldset p {
+  margin-bottom: 64px;
+}
+
+/* line 152, ../sass/main.scss */
+.what-we-do {
+  margin-top: 145px;
+  text-align: center;
+}
+/* line 155, ../sass/main.scss */
+.what-we-do fieldset {
+  border: 3px solid #000000;
+  color: #000000;
+}
+/* line 158, ../sass/main.scss */
+.what-we-do fieldset legend {
+  color: #000;
+}
+/* line 163, ../sass/main.scss */
+.what-we-do h2 {
+  text-transform: uppercase;
+  font-family: "latobold", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 4px;
+}
+/* line 170, ../sass/main.scss */
+.what-we-do P {
+  color: #3c3c3c;
+  font-size: 14pt;
+}
+/* line 175, ../sass/main.scss */
+.what-we-do .wwd-design img, .what-we-do .wwd-development img, .what-we-do .wwd-product img {
+  margin-bottom: 40px;
+}
+
+/* line 182, ../sass/main.scss */
+.our-works {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 16pt;
+  font-family: "latobold", sans-serif;
+  margin: 112px auto;
+}
+/* line 189, ../sass/main.scss */
+.our-works h2 {
+  text-transform: uppercase;
+}
+
+/* line 194, ../sass/main.scss */
+.ow-img {
+  display: inline-block;
+  width: 260px;
+  height: 200px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+/* line 200, ../sass/main.scss */
+.ow-img:nth-child(2), .ow-img:nth-child(5) {
+  width: 450px;
+}
+/* line 203, ../sass/main.scss */
+.ow-img h2 {
+  position: absolute;
+  color: #ffffff;
+  margin-top: -55px;
+  margin-left: 22px;
+  font-family: "latobold", sans-serif;
+  letter-spacing: 5px;
+}
+/* line 211, ../sass/main.scss */
+.ow-img img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* line 217, ../sass/main.scss */
+.contact-us {
+  margin-top: 112px;
+  text-align: center;
+}
+/* line 220, ../sass/main.scss */
+.contact-us fieldset {
+  border: 3px solid #000000;
+}
+/* line 223, ../sass/main.scss */
+.contact-us fieldset legend {
+  color: #000000;
+  font-family: "latobold", sans-serif;
+}
+/* line 227, ../sass/main.scss */
+.contact-us fieldset p {
+  color: #3c3c3c;
+}
+/* line 230, ../sass/main.scss */
+.contact-us fieldset input[type="button"] {
+  width: 359px;
+  height: 58px;
+  background-color: #3c3c3c;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+  font-family: "latoregular", sans-serif;
+  font-size: 16pt;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 242, ../sass/main.scss */
+.contact-us fieldset input[type="button"]:hover {
+  background-color: #616161;
+}
+
+/* line 249, ../sass/main.scss */
+.footer {
+  margin-top: 64px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* line 253, ../sass/main.scss */
+.footer img {
+  display: inline-block;
+  margin-right: 36px;
+  vertical-align: middle;
+  width: 35px;
+  height: 36px;
+}
+/* line 260, ../sass/main.scss */
+.footer p {
+  display: inline-block;
+  color: #3c3c3c;
+  font-size: 14pt;
+}
